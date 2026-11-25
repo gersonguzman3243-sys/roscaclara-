@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+web/node_modules/
+web/dist/
+datos/historial.sqlite
+datos/calibracion.json
+.DS_Store

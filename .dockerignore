@@ -1,0 +1,14 @@
+.git
+.venv
+**/__pycache__
+**/.pytest_cache
+**/*.pyc
+**/.mypy_cache
+**/.ruff_cache
+web/node_modules
+web/dist
+datos/historial.sqlite
+datos/calibracion.json
+**/.DS_Store
+*.tar.gz
+/opt

@@ -1,0 +1,3 @@
+Opcional. Fotos de tornillos con la cuerda barrida, incompleta, dañada o mal formada.
+Sirven para afinar el corte entre OK y DEFECTUOSO. Con 15 o más de cada problema que te importe, el umbral se ajusta mejor.
+Si todavía no tienes, deja esta carpeta vacía: se puede calibrar solo con tornillos buenos.

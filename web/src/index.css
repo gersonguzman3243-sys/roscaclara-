@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1c1612;
+  background: #f3eee6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Outfit, system-ui, sans-serif;
+  background:
+    radial-gradient(900px 420px at 100% -10%, rgba(196, 98, 45, 0.16), transparent 60%),
+    radial-gradient(700px 380px at -10% 20%, rgba(13, 122, 69, 0.08), transparent 55%),
+    #f3eee6;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: #f0c7b2;
+}
+
+@keyframes surgir {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes sello {
+  from {
+    opacity: 0;
+    transform: scale(0.86) rotate(-7deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes barra {
+  from {
+    transform: translateX(-60%);
+  }
+  to {
+    transform: translateX(220%);
+  }
+}
+
+.surgir {
+  animation: surgir 0.45s ease;
+}
+
+.sello {
+  animation: sello 0.48s cubic-bezier(0.16, 1.4, 0.4, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .surgir,
+  .sello {
+    animation: none;
+  }
+}
